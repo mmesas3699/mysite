@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import About from '@/views/home/About'
 import Home from '@/views/home/Home'
 
-import News from '@/views/news/News'
+// import News from '@/views/news/News'
 
 Vue.use(Router)
 
@@ -21,10 +21,10 @@ export default new Router({
 			name: 'about',
 			component: About
 		},
-		{
+/*		{
 			path: '/news',
 			name: 'news',
 			component: News,
 		}
-	]
+*/	]
 })

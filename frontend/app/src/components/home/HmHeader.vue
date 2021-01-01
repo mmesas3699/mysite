@@ -8,10 +8,10 @@
 		<ul class="nav ml-auto">
 			<li class="nav-item">
 				<a href="." class="nav-link text-white">inicio</a>
-			</li>
+			</li><!-- 
 			<li class="nav-item">
 				<a href="/news" class="nav-link text-white">news</a>					
-			</li>
+			</li> -->
 			<li class="nav-item">
 				<a href="/about" class="nav-link text-white">acerca de mi</a>
 			</li>

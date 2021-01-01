@@ -30,9 +30,34 @@
             <!-- Experience -->
             <div class="mt-sm-0 mt-5">
               <h3 class="font-weight-bold mb-4">Experiencia</h3>
+            
+              <!-- El Tiempo -->
+              <div>
+                <h4 class="font-weight-bold">Desarrollador Python - Casa Editorial El Tiempo</h4>
+                <div>
+                  <span class="text-secondary">Julio 2020 - Actualmente</span>
+                  <ul class="mt-1">
+                    <li class="p-1">
+                      Desarollos que se requieran en la operatividad a cargo del área, ejecutando labores de implementación,
+                      mejora y diseño de nuevos servicios enfocados en portales de pagos y de transacciones bajo lenguaje Python.
+                    </li>
+                    <li class="p-1">
+                      Generar los procesos de desarrollo y soporte para las aplicaciones del proyecto.
+                    </li>
+                    <li class="p-1">
+                      Diseñar cada una de las soluciones de software, corrección de errores y generación de scripts.
+                    </li>
+                    <li class="p-1">
+                      Realizar la documentación y la correcta entrega de cada uno de los requerimientos asignados.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
               <!-- Freelancer -->
               <div>
                 <h4 class="font-weight-bold">Freelancer</h4>
+            
                 <!-- PVD -->
                 <div>
                   <span class="text-secondary">2020</span>
@@ -43,6 +68,7 @@
                     </li>
                   </ul>
                 </div>
+            
                 <!-- Ignacio Cagua -->
                 <div>
                   <span class="text-secondary">2019</span>
@@ -55,6 +81,7 @@
                   </ul>
                 </div>
               </div>
+            
               <!-- Grexco -->
               <div>
                 <h4 class="font-weight-bold">Auxiliar de Soporte - Grexco S.A.S</h4>
@@ -75,6 +102,7 @@
               </div>
             </div>
             <br>
+            
             <!-- Skills -->
             <div>
               <h4 class="font-weight-bold">He trabajado con:</h4>
@@ -85,13 +113,17 @@
                     <li class="list-group-item p-1">Django</li>
                     <li class="list-group-item p-1">Rest Framework</li>
                     <li class="list-group-item p-1">Flask</li>
-                    <li class="list-group-item p-1">SQL</li>
-                    <li class="list-group-item p-1">HTML</li>
-                    <li class="list-group-item p-1">API Rest</li>
+                    <li class="list-group-item p-1">Pandas</li>
+                    <li class="list-group-item p-1">SQL</li>                    
+                    <li class="list-group-item p-1">AWS SES</li>
+                    <li class="list-group-item p-1">Twilio Sendgrid</li>
+                    <li class="list-group-item p-1">ElasticSearch</li>                    
                   </ul>
                 </div>
                 <div class="col-sm">
                   <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-1">HTML</li>
+                    <li class="list-group-item p-1">API Rest</li>
                     <li class="list-group-item p-1">Git</li>
                     <li class="list-group-item p-1">Docker</li>
                     <li class="list-group-item p-1">Linux</li>
@@ -104,6 +136,7 @@
               </div>
             </div>
             <br>
+            
             <!-- Education -->
             <div class="mt-3">
               <h3 class="font-weight-bold mb-4">Educación</h3>

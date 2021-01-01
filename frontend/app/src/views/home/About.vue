@@ -1,35 +1,7 @@
-<!doctype html>
-<html lang="es">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <title>Miguel Mesa</title>
-  </head>
-  <body>
-    <div class="container-fluid p-0 h-100 w-100">
-      <header class="row m-0 px-sm-5 px-2 py-2" style="background-color: black;">
-        <a href="." class="nav-link text-white">
-          <svg class="bi bi-code-slash" width="1.3em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M4.854 4.146a.5.5 0 010 .708L1.707 8l3.147 3.146a.5.5 0 01-.708.708l-3.5-3.5a.5.5 0 010-.708l3.5-3.5a.5.5 0 01.708 0zm6.292 0a.5.5 0 000 .708L14.293 8l-3.147 3.146a.5.5 0 00.708.708l3.5-3.5a.5.5 0 000-.708l-3.5-3.5a.5.5 0 00-.708 0zm-.999-3.124a.5.5 0 01.33.625l-4 13a.5.5 0 01-.955-.294l4-13a.5.5 0 01.625-.33z" clip-rule="evenodd"/>
-          </svg>
-        </a>
-        <ul class="nav ml-auto">
-          <li class="nav-item">
-            <a href="." class="nav-link text-white">inicio</a>
-          </li>
-          <li class="nav-item">
-            <a href="/about.html" class="nav-link text-white">acerca de mi</a>
-          </li>
-        </ul>
-    </header>
-
+<template>
+  <div class="container-fluid p-0 h-100">
+    <HmHeader/>
     <main>
-      
       <div class="container">
         <!-- Title -->
         <div class="row pt-5 pl-sm-5">
@@ -37,7 +9,6 @@
             <h1 class="font-weight-bold">Miguel Angel Mesa Salazar</h1>
           </div>
         </div>
-
         <!-- Info -->
         <div class="row pl-sm-5 mt-sm-3 mt-3">
           <div class="col-sm-4">
@@ -46,7 +17,6 @@
               <p>Tengo dos años de experiencia usando Python y los frameworks para desarrollo web: Flask, Django y Rest Framework.</p>
             </div>
             <br>
-
             <!-- Contact -->
             <div>
               <h3 class="font-weight-bold">Contacto</h3>
@@ -55,81 +25,84 @@
               <p class="contact-info">Bogotá, Colombia.</p>
             </div>
           </div>
-
           <!-- Experience / Education -->
           <div class="col-sm">
-
             <!-- Experience -->
             <div class="mt-sm-0 mt-5">
               <h3 class="font-weight-bold mb-4">Experiencia</h3>
-                
-                <!-- El Tiempo -->
-                <div class="pb-2">
-                  <h4 class="font-weight-bold">Desarrollador Python - Casa Editorial El Tiempo</h4>
+            
+              <!-- El Tiempo -->
+              <div>
+                <h4 class="font-weight-bold">Desarrollador Python - Casa Editorial El Tiempo</h4>
+                <div>
                   <span class="text-secondary">Julio 2020 - Actualmente</span>
                   <ul class="mt-1">
-                    <li class="p-1">Desarrollos que se requieran en la operatividad a cargo del área, ejecutando labores de implementación, mejora y diseño de nuevos servicios enfocados en portales de pagos y de transacciones bajo lenguaje Python.
+                    <li class="p-1">
+                      Desarollos que se requieran en la operatividad a cargo del área, ejecutando labores de implementación,
+                      mejora y diseño de nuevos servicios enfocados en portales de pagos y de transacciones bajo lenguaje Python.
                     </li>
                     <li class="p-1">
                       Generar los procesos de desarrollo y soporte para las aplicaciones del proyecto.
                     </li>
                     <li class="p-1">
-                      Diseñar cada una de las soluciones de software, corrección de errores y generación de Scripts.
+                      Diseñar cada una de las soluciones de software, corrección de errores y generación de scripts.
                     </li>
                     <li class="p-1">
                       Realizar la documentación y la correcta entrega de cada uno de los requerimientos asignados.
                     </li>
-                  </ul>  
+                  </ul>
                 </div>
+              </div>
 
-                <!-- Freelancer -->
+              <!-- Freelancer -->
+              <div>
+                <h4 class="font-weight-bold">Freelancer</h4>
+            
+                <!-- PVD -->
                 <div>
-                  <h4 class="font-weight-bold">Freelancer</h4>
-                
-                  <!-- PVD -->
-                  <div>
-                    <span class="text-secondary">2020</span>
-                    <ul class="mt-1">
-                      <li class="p-1">
-                        Desarrollé un API Rest para que un colegio pueda registrar el acceso de los estudiantes que hacen uso de la sala Vive Digital. Permite llevar el tiempo de uso de los equipos y las asignaturas en las que trabajan. <br>
-                        El stack usado fue: Django Rest Framework, Docker, Postgresql.
-                      </li>
-                    </ul>
-                  </div>
-
-                  <!-- Ignacio Cagua -->
-                  <div>
-                    <span class="text-secondary">2019</span>
-                    <ul class="mt-1">
-                      <li class="p-1">Desarrollé una plataforma web para generar facturas y cotizaciones. La aplicación maneja distintos parámetros que permiten asignar y/o modificar la información correspondiente a las facturas que asigna la DIAN, permite imprimir las facturas generando un archivo PDF, permite recibir mensajes de las personas interesadas en los servicios ofrecidos por el cliente (a través de un formulario ubicado en la página web del cliente). <br>
-
-                      El stack usado para esta aplicación fue: Flask Web Framework, JavaScript, HTML,
-                      CSS, Bootstrap, MySQL, NGINX.</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <!-- Grexco -->
-                <div>
-                  <h4 class="font-weight-bold">Auxiliar de Soporte - Grexco S.A.S</h4>
-                  <span class="text-secondary">Agosto de 2016 - Octubre de 2018</span>
+                  <span class="text-secondary">2020</span>
                   <ul class="mt-1">
-                    <li class="p-1">Brindé soporte telefónico y presencial a los diferentes clientes sobre el
-                    software (ERP) ofrecido por la empresa para satisfacer las necesidades del cliente.
-                    </li>
                     <li class="p-1">
-                      Debía analizar los diferentes incidente reportados para diseñar la mejor solución.
-                    </li>
-                    <li class="p-1">
-                      Propuse y desarrollé una plataforma web de mesa de ayuda que le permitía a los clientes reportar los incidentes que tuvieran. Del lado de la empresa permitía: clasificar los incidentes, tener un mejor control de los tiempos de respuesta y una distribución mas eficiente de las actualizaciones hechas a los aplicativos.
-                      <br>
-                      El stack usado para este desarrollo fue: Django, MySQL, NGINX, JQuery, Bootstrap.
+                    Desarrollé un API Rest para que un colegio pueda registrar el acceso de los estudiantes que hacen uso de la sala Vive Digital. Permite llevar el tiempo de uso de los equipos y las asignaturas en las que trabajan. <br>
+                    El stack usado fue: Django Rest Framework, Docker, Postgresql.
                     </li>
                   </ul>
                 </div>
+            
+                <!-- Ignacio Cagua -->
+                <div>
+                  <span class="text-secondary">2019</span>
+                  <ul class="mt-1">
+                    <li class="p-1">Desarrollé una plataforma web para generar facturas y cotizaciones. La aplicación maneja distintos parámetros que permiten asignar y/o modificar la información correspondiente a las facturas que asigna la DIAN, permite imprimir las facturas generando un archivo PDF, permite recibir mensajes de las personas interesadas en los servicios ofrecidos por el cliente (a través de un formulario ubicado en la página web del cliente). <br>
+
+                    El stack usado para esta aplicación fue: Flask Web Framework, JavaScript, HTML,
+                    CSS, Bootstrap, MySQL, NGINX.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            
+              <!-- Grexco -->
+              <div>
+                <h4 class="font-weight-bold">Auxiliar de Soporte - Grexco S.A.S</h4>
+                <span class="text-secondary">Agosto de 2016 - Octubre de 2018</span>
+                <ul class="mt-1">
+                  <li class="p-1">Brindé soporte telefónico y presencial a los diferentes clientes sobre el
+                  software (ERP) ofrecido por la empresa para satisfacer las necesidades del cliente.
+                  </li>
+                  <li class="p-1">
+                  Debía analizar los diferentes incidente reportados para diseñar la mejor solución.
+                  </li>
+                  <li class="p-1">
+                  Propuse y desarrollé una plataforma web de mesa de ayuda que le permitía a los clientes reportar los incidentes que tuvieran. Del lado de la empresa permitía: clasificar los incidentes, tener un mejor control de los tiempos de respuesta y una distribución mas eficiente de las actualizaciones hechas a los aplicativos.
+                  <br>
+                  El stack usado para este desarrollo fue: Django, MySQL, NGINX, JQuery, Bootstrap.
+                  </li>
+                </ul>
+              </div>
             </div>
             <br>
-
+            
             <!-- Skills -->
             <div>
               <h4 class="font-weight-bold">He trabajado con:</h4>
@@ -140,10 +113,11 @@
                     <li class="list-group-item p-1">Django</li>
                     <li class="list-group-item p-1">Rest Framework</li>
                     <li class="list-group-item p-1">Flask</li>
-                    <li class="list-group-item p-1">SQL</li>
+                    <li class="list-group-item p-1">Pandas</li>
+                    <li class="list-group-item p-1">SQL</li>                    
                     <li class="list-group-item p-1">AWS SES</li>
                     <li class="list-group-item p-1">Twilio Sendgrid</li>
-                    <li class="list-group-item p-1">ElasticSearch</li>
+                    <li class="list-group-item p-1">ElasticSearch</li>                    
                   </ul>
                 </div>
                 <div class="col-sm">
@@ -162,11 +136,10 @@
               </div>
             </div>
             <br>
-
+            
             <!-- Education -->
             <div class="mt-3">
               <h3 class="font-weight-bold mb-4">Educación</h3>
-              
               <!-- Lifelong Learner -->
               <div class="mt-3">
                 <h4 class="font-weight-bold">Lifelong Learner</h4>
@@ -177,7 +150,6 @@
                   </ul>
                 </div>
               </div>
-
               <!-- Platzi -->
               <div class="mt-3">
                 <h4 class="font-weight-bold">Cursos</h4>
@@ -234,27 +206,23 @@
                   </ul>  
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
-
     </main>
+    <HmFooter/>
+  </div>
+</template>
+<script>
+import HmHeader from '@/components/home/HmHeader'
+import HmFooter from '@/components/home/HmFooter'
 
-    <footer class="row w-100 m-0 p-0 mt-5">
-      <div class="col m-0 py-3 text-center">
-        <p style="font-size: 1em">@Todos los derechos reservados Miguel Mesa. 2020.</p>
-      </div>
-    </footer>
-
-    </div>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-</html>
+export default {
+  name: 'About',
+  components: {
+    HmHeader,
+    HmFooter
+  }
+}
+</script>
